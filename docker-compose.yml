@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  pariapi:
+    image: pariapi
+    build:
+      context: .
+      dockerfile: PariApi/Dockerfile
